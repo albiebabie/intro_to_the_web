@@ -10,3 +10,7 @@ end
 get '/dogs' do
   'lab'
 end
+get '/cat' do
+
+  "<img style = 'border: 10px dotted red' src = 'http://bit.ly/1eze8aE'>"
+end

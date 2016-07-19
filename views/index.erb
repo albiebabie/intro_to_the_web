@@ -1,4 +1,9 @@
 <% if @name %>
 <h1> My name is <%= @name %> </h1>
-<% end %> 
+<% else %>
+<form action="/named-cat">
+  <input type="text" name="name">
+  <input type="submit" value="Submit">
+</form>
+<% end %>
 <img style = 'border: 10px dotted red' src = 'http://bit.ly/1eze8aE'>
